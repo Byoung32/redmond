@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "query<-\"SELECT playerID, teamID, sum(SB)\nFROM Batting\nWHERE playerID='loftoke01'\nORDER by sum(SB) DESC\"\n\nresult<-sqldf(query)\n\nggplot()+\n  geom_bar(data=result, aes(x=teamID, y=SB), color='blue', fill='white')\n\n",
+    "created" : 1507558932261.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "242659500",
+    "id" : "B8919F09",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1507559829827,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

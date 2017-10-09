@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "query<-\"SELECT playerID, SB\nFROM Batting\nWHERE playerID = 'loftoke01'\"\n\nresult<-sqldf(query)\n\n\nggplot()+\n  geom_histogram(data=result, aes(x = SB), color=\"blue\", fill=\"white\", bins = 5) \n",
+    "created" : 1507560020287.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "318596051",
+    "id" : "F9BC8EB6",
+    "lastKnownWriteTime" : 1507558698,
+    "last_content_update" : 1507558698,
+    "path" : "C:/Users/BKY/Desktop/Practice Test/Problem #1 BYoung.R",
+    "project_path" : "Problem #1 BYoung.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
